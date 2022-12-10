@@ -1,3 +1,5 @@
+import {} from './interface';
+
 interface Address {
   street: string;
   city: string;
