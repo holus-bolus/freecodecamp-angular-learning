@@ -14,6 +14,7 @@ let user: User = {
 };
 
 
+
 interface Employees extends User {
   salary: number;
 }
@@ -31,3 +32,5 @@ let employee: Employees = {
 interface Login {
   login():User;
 }
+
+export default User;
